@@ -1,0 +1,19 @@
+// Idea for random subreddit
+
+
+<html>
+<center>
+  <h1 style="color: #529bbf">
+    Random Post From A Subreddit
+  </h1>
+  <label type="text">Subreddit:</label>
+  <input type="text" id="sub" name="sub"><br><br>
+  <button onclick="goSub(sub);">Go!</button>
+</center>
+</html>
+<script>
+  function goSub(sub) {
+    var sub = document.getElementById("sub").value;
+    window.open("GET","https://reddit.com/r/" + sub + "/random/top?t=all")
+  }
+</script>
