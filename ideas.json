@@ -10,6 +10,7 @@ Ideas:
 - Integrated VPN tunneling
 - Use Google API to find exact coordinates of an address (Costs money to use Google API)
 - Get random reddit posts on my website (HTML/JS/CSS)
+- Create auto-run scripts that update server that it's being run on and auto-restarts service.
 
 
 */
